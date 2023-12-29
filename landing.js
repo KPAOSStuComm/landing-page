@@ -1,5 +1,5 @@
 window.onload = function () {
-  document.getElementById("landing-page").innerHTML =
+  document.getElementById("landing").innerHTML =
     '<img src="" alt="สวัสดีปีใหม่ 2567 โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่" id="landing-img" />';
 };
 
