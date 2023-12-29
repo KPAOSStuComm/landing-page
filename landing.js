@@ -1,5 +1,8 @@
-document.getElementById("landing-page").innerHTML =
-  '<img src="" alt="สวัสดีปีใหม่ 2567 โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่" id="landing-img" />';
+window.onload = function () {
+  document.getElementById("landing-page").innerHTML =
+    '<img src="" alt="สวัสดีปีใหม่ 2567 โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่" id="landing-img" />';
+};
+
 setInterval(() => {
   // Select the image element
   let imgElement = document.getElementById("landing-img");
