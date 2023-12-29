@@ -11,9 +11,9 @@ setInterval(() => {
   if (window.matchMedia("(max-width: 900px)").matches) {
     // If true, change the source of the image
     imgElement.src =
-      "//kpaosstucomm-proj-landing.netlify.app/images/HNY-2024-KPAOS-wide.jpg";
+      "//kpaosstucomm-proj-landing.netlify.app/images/HNY-2024-KPAOS-compact.jpg";
   } else {
     imgElement.src =
-      "//kpaosstucomm-proj-landing.netlify.app/images/HNY-2024-KPAOS-compact.jpg";
+      "//kpaosstucomm-proj-landing.netlify.app/images/HNY-2024-KPAOS-wide.jpg";
   }
 }, 1000);
