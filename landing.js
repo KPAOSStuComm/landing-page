@@ -26,5 +26,5 @@ window.onload = function () {
     imgElement.src = images[index].src;
     imgElement.alt = images[index].alt;
     index = (index + 1) % images.length;
-  }, 2000);
+  }, 3000);
 };
