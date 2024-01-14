@@ -1,12 +1,10 @@
 window.onload = function () {
   document.getElementById("landing").innerHTML =
     '<img src="" alt="" id="landing-img" />';
-};
 
-// Select the image element
-let imgElement = document.getElementById("landing-img");
+  // Select the image element
+  let imgElement = document.getElementById("landing-img");
 
-setTimeout(() => {
   setInterval(() => {
     setTimeout(() => {
       imgElement.src =
@@ -30,4 +28,4 @@ setTimeout(() => {
       imgElement.alt = "วันครู, 16 มกราคม 2567";
     }, 2000);
   }, 6000);
-}, 500);
+};
