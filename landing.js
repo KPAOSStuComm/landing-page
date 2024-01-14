@@ -23,7 +23,7 @@ window.onload = function () {
 
     setTimeout(() => {
       imgElement.src =
-        "//kpaosstucomm-proj-landing.netlify.app/images/teachers-day-2024.jpg";
+        "//kpaosstucomm-proj-landing.netlify.app/images/teachers-day-2024.png";
 
       imgElement.alt = "วันครู, 16 มกราคม 2567";
     }, 2000);
