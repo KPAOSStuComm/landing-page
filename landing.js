@@ -19,13 +19,13 @@ window.onload = function () {
         "//kpaosstucomm-proj-landing.netlify.app/images/kids-day-2024.jpg";
 
       imgElement.alt = "วันเด็กแห่งชาติ, 13 มกราคม 2567";
-    }, 2000);
+    }, 4000);
 
     setTimeout(() => {
       imgElement.src =
         "//kpaosstucomm-proj-landing.netlify.app/images/teachers-day-2024.png";
 
       imgElement.alt = "วันครู, 16 มกราคม 2567";
-    }, 2000);
-  }, 6000);
+    }, 6000);
+  }, 8000);
 };
