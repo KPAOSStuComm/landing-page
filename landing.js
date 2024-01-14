@@ -6,26 +6,28 @@ window.onload = function () {
 // Select the image element
 let imgElement = document.getElementById("landing-img");
 
-setInterval(() => {
-  setTimeout(() => {
-    imgElement.src =
-      "//kpaosstucomm-proj-landing.netlify.app/images/open-house-10.jpg";
+setTimeout(() => {
+  setInterval(() => {
+    setTimeout(() => {
+      imgElement.src =
+        "//kpaosstucomm-proj-landing.netlify.app/images/open-house-10.jpg";
 
-    imgElement.alt =
-      "กิ่งจันวิชาการ ครั้งที่ 10 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่";
-  }, 2000);
+      imgElement.alt =
+        "กิ่งจันวิชาการ ครั้งที่ 10 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่";
+    }, 2000);
 
-  setTimeout(() => {
-    imgElement.src =
-      "//kpaosstucomm-proj-landing.netlify.app/images/kids-day-2024.jpg";
+    setTimeout(() => {
+      imgElement.src =
+        "//kpaosstucomm-proj-landing.netlify.app/images/kids-day-2024.jpg";
 
-    imgElement.alt = "วันเด็กแห่งชาติ, 13 มกราคม 2567";
-  }, 2000);
+      imgElement.alt = "วันเด็กแห่งชาติ, 13 มกราคม 2567";
+    }, 2000);
 
-  setTimeout(() => {
-    imgElement.src =
-      "//kpaosstucomm-proj-landing.netlify.app/images/teachers-day-2024.jpg";
+    setTimeout(() => {
+      imgElement.src =
+        "//kpaosstucomm-proj-landing.netlify.app/images/teachers-day-2024.jpg";
 
-    imgElement.alt = "วันครู, 16 มกราคม 2567";
-  }, 2000);
-}, 6000);
+      imgElement.alt = "วันครู, 16 มกราคม 2567";
+    }, 2000);
+  }, 6000);
+}, 500);
