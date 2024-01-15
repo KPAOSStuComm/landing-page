@@ -26,10 +26,10 @@ window.onload = function () {
     imgElement.src = images[index].src;
     imgElement.alt = images[index].alt;
     index = (index + 1) % images.length;
-
-    var landing = document.getElementById("landing");
-    var contentHeight = 0;
   }, 3000);
+
+  var landing = document.getElementById("landing");
+  var contentHeight = 0;
 
   setInterval(() => {
     // Calculate the total height of all children
