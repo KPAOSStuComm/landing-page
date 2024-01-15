@@ -26,16 +26,16 @@ window.onload = function () {
     imgElement.src = images[index].src;
     imgElement.alt = images[index].alt;
     index = (index + 1) % images.length;
+
+    var landing = document.getElementById("landing");
+    var contentHeight = 0;
+
+    // Calculate the total height of all children
+    for (var i = 0; i < landing.children.length; i++) {
+      contentHeight += landing.children[i].offsetHeight;
+    }
+
+    // Set the height of the landing element
+    landing.style.height = contentHeight + "px";
   }, 3000);
-
-  var landing = document.getElementById("landing");
-  var contentHeight = 0;
-
-  // Calculate the total height of all children
-  for (var i = 0; i < landing.children.length; i++) {
-    contentHeight += landing.children[i].offsetHeight;
-  }
-
-  // Set the height of the landing element
-  landing.style.height = contentHeight + "px";
 };
