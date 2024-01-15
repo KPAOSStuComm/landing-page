@@ -29,9 +29,10 @@ window.onload = function () {
   }, 3000);
 
   var landing = document.getElementById("landing");
-  var contentHeight = 0;
 
   setInterval(() => {
+    var contentHeight = 0;
+
     // Calculate the total height of all children
     for (var i = 0; i < landing.children.length; i++) {
       contentHeight += landing.children[i].offsetHeight;
