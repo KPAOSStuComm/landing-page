@@ -7,16 +7,12 @@ window.onload = function () {
 
   let images = [
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/open-house-10.jpg",
-      alt: "กิ่งจันวิชาการ ครั้งที่ 10 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-comp.jpg",
+      alt: "สนามแข่งขันกีฬาลีลาศ, เปตอง, บาสเกตบอล, และคาราเต้-โด 23-30 มกราคม 2567 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
     },
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/kids-day-2024.jpg",
-      alt: "วันเด็กแห่งชาติ, 13 มกราคม 2567",
-    },
-    {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/teachers-day-2024.png",
-      alt: "วันครู, 16 มกราคม 2567",
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-close.jpg",
+      alt: "พิธีปิด วันที่ 30 มกราคม พ.ศ.2567 เวลา 15:00 น. ณ โรงยิมอเนกประสงค์จันทร์กะพ้อ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
     },
   ];
 
