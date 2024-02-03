@@ -1,20 +1,32 @@
 window.onload = function () {
-  document.getElementById("landing").innerHTML =
-    '<img src="" alt="" id="landing-img" />';
-
-  // Select the image element
-  let imgElement = document.getElementById("landing-img");
+  // Select the landing element
+  var landing = document.getElementById("landing");
 
   let images = [
     {
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/rooms-board-register-2024.png",
+      alt: "ลงรายชื่อกรรการห้องในฐานข้อมูล ประจำปีการศึกษา 2566",
+      link: "//kpaos-shorturl.netlify.app/fn/urls/Y8K1fHZk"
+    },
+    {
       src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-comp.jpg",
       alt: "สนามแข่งขันกีฬาลีลาศ, เปตอง, บาสเกตบอล, และคาราเต้-โด 23-30 มกราคม 2567 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      link: "#"
     },
     {
       src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-close.jpg",
       alt: "พิธีปิด วันที่ 30 มกราคม พ.ศ.2567 เวลา 15:00 น. ณ โรงยิมอเนกประสงค์จันทร์กะพ้อ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      link: "//kpaos-shorturl.netlify.app/fn/urls/1rGYQUuv"
     },
   ];
+
+  // Dynamically generate the HTML content with links
+  for (let i = 0; i < images.length; i++) {
+    landing.innerHTML += `<a href="${images[i].link}" target="_blank"><img src="${images[i].src}" alt="${images[i].alt}" id="landing-img-${i}" /></a>`;
+  }
+
+  // Select the first image element
+  let imgElement = document.getElementById("landing-img-0");
 
   let index = 0;
 
@@ -23,8 +35,6 @@ window.onload = function () {
     imgElement.alt = images[index].alt;
     index = (index + 1) % images.length;
   }, 3000);
-
-  var landing = document.getElementById("landing");
 
   setInterval(() => {
     var contentHeight = 0;
