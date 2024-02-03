@@ -22,11 +22,11 @@ window.onload = function () {
 
   // Dynamically generate the HTML content with links
   for (let i = 0; i < images.length; i++) {
-    landing.innerHTML += `<a href="${images[i].link}" target="_blank"><img src="${images[i].src}" alt="${images[i].alt}" id="landing-img-${i}" /></a>`;
+    landing.innerHTML += `<a href="${images[i].link}" target="_blank"><img src="${images[i].src}" alt="${images[i].alt}" id="landing-img" /></a>`;
   }
 
   // Select the first image element
-  let imgElement = document.getElementById("landing-img-0");
+  let imgElement = document.getElementById("landing-img");
 
   let index = 0;
 
