@@ -35,7 +35,12 @@ window.onload = function () {
       contentHeight += landing.children[i].offsetHeight;
     }
 
+    for (var i = 0; i < linkElement.children.length; i++) {
+      contentHeight += linkElement.children[i].offsetHeight;
+    }
+
     // Set the height of the landing element
     landing.style.height = contentHeight + "px";
+    linkElement.style.height = contentHeight + "px";
   }, 500);
 };
