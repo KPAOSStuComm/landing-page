@@ -1,6 +1,6 @@
 window.onload = function () {
   document.getElementById("landing").innerHTML =
-    '<a href="" id="landing-link"><img src="" alt="" id="landing-img" /></a>';
+    '<a href="#" id="landing-link"><img src="" alt="" id="landing-img" /></a>';
 
   // Select the image element
   let imgElement = document.getElementById("landing-img");
@@ -31,16 +31,4 @@ window.onload = function () {
     // Set the height of the landing element
     landing.style.height = imgElement.offsetHeight + "px";
   };
-
-  setInterval(() => {
-    var contentHeight = 0;
-
-    // Calculate the total height of all children
-    for (var i = 0; i < landing.children.length; i++) {
-      contentHeight += landing.children[i].offsetHeight;
-    }
-
-    // Set the height of the landing element
-    landing.style.height = contentHeight + "px";
-  }, 500);
 };
