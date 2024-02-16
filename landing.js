@@ -1,26 +1,19 @@
 window.onload = function () {
-  document.getElementById("landing-link").innerHTML =
-    '<img src="" alt="" id="landing-img" />';
+  document.getElementById("landing").innerHTML =
+    '<a href="" id="landing-link"><img src="" alt="" id="landing-img" /></a>';
 
-  // Select the image and link element
+  // Select the image element
   let imgElement = document.getElementById("landing-img");
   let linkElement = document.getElementById("landing-link");
 
   let images = [
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/rooms-board-register-2024.png",
-      alt: "ลงรายชื่อกรรการห้องในฐานข้อมูล ประจำปีการศึกษา 2566",
-      link: "//kpaos-shorturl.netlify.app/fn/urls/Y8K1fHZk"
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-comp.jpg",
+      alt: "สนามแข่งขันกีฬาลีลาศ, เปตอง, บาสเกตบอล, และคาราเต้-โด 23-30 มกราคม 2567 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
     },
     {
       src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-close.jpg",
       alt: "พิธีปิด วันที่ 30 มกราคม พ.ศ.2567 เวลา 15:00 น. ณ โรงยิมอเนกประสงค์จันทร์กะพ้อ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
-      link: "//kpaos-shorturl.netlify.app/fn/urls/1rGYQUuv",
-    },
-    {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-comp.jpg",
-      alt: "สนามแข่งขันกีฬาลีลาศ, เปตอง, บาสเกตบอล, และคาราเต้-โด 23-30 มกราคม 2567 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
-      link: "#"
     },
   ];
 
@@ -29,7 +22,6 @@ window.onload = function () {
   setInterval(() => {
     imgElement.src = images[index].src;
     imgElement.alt = images[index].alt;
-    linkElement.href = images[index].link;
     index = (index + 1) % images.length;
   }, 3000);
 
