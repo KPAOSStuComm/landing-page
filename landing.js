@@ -8,12 +8,19 @@ window.onload = function () {
 
   let images = [
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-comp.jpg",
-      alt: "สนามแข่งขันกีฬาลีลาศ, เปตอง, บาสเกตบอล, และคาราเต้-โด 23-30 มกราคม 2567 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/valentine-day-2024.jpg",
+      alt: "วันวาเลนไทน์ 2567 โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      link: "#",
     },
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/krabi-games-2024-close.jpg",
-      alt: "พิธีปิด วันที่ 30 มกราคม พ.ศ.2567 เวลา 15:00 น. ณ โรงยิมอเนกประสงค์จันทร์กะพ้อ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/farewell-kpaos-2024.jpg",
+      alt: "กิจกรรมอำลาพี่-น้อง KPAOS ชั้นมัธยมศึกษาปีที่ 3 และ 6 ประจำปีการศึกษา 2566 (ภาพโดย ___bbbeee)",
+      link: "https://www.instagram.com/p/C3UmScKv5J7/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+    },
+    {
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/CNY-2024.jpg",
+      alt: "กิจกรรมอำลาพี่-น้อง KPAOS ชั้นมัธยมศึกษาปีที่ 3 และ 6 ประจำปีการศึกษา 2566 (ภาพโดย ___bbbeee)",
+      link: "https://www.instagram.com/p/C3UmScKv5J7/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
     },
   ];
 
@@ -22,6 +29,7 @@ window.onload = function () {
   setInterval(() => {
     imgElement.src = images[index].src;
     imgElement.alt = images[index].alt;
+    linkElement.href = images[index].link;
     index = (index + 1) % images.length;
   }, 3000);
 
