@@ -18,7 +18,7 @@ window.onload = function () {
       link: "#",
     },
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/farewell-kpaos-2024.jpg",
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/farewell-kpaos-2024.png",
       alt: "กิจกรรมอำลาพี่-น้อง KPAOS ชั้นมัธยมศึกษาปีที่ 3 และ 6 ประจำปีการศึกษา 2566 (ภาพโดย ___bbbeee)",
       link: "https://kpaos-shorturl.netlify.app/r/GXCgL1FE",
     },
