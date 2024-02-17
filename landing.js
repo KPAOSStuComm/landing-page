@@ -8,6 +8,11 @@ window.onload = function () {
 
   let images = [
     {
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/Sirindhorn-2024.jpg",
+      alt: "เรารักกรมสมเด็จพระเทพฯ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      link: "https://kpaos-shorturl.netlify.app/r/0wUirfI0",
+    },
+    {
       src: "//kpaosstucomm-proj-landing.netlify.app/images/valentine-day-2024.jpg",
       alt: "วันวาเลนไทน์ 2567 โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
       link: "#",
@@ -15,12 +20,12 @@ window.onload = function () {
     {
       src: "//kpaosstucomm-proj-landing.netlify.app/images/farewell-kpaos-2024.jpg",
       alt: "กิจกรรมอำลาพี่-น้อง KPAOS ชั้นมัธยมศึกษาปีที่ 3 และ 6 ประจำปีการศึกษา 2566 (ภาพโดย ___bbbeee)",
-      link: "https://www.instagram.com/p/C3UmScKv5J7/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+      link: "https://kpaos-shorturl.netlify.app/r/GXCgL1FE",
     },
     {
       src: "//kpaosstucomm-proj-landing.netlify.app/images/CNY-2024.jpg",
-      alt: "กิจกรรมอำลาพี่-น้อง KPAOS ชั้นมัธยมศึกษาปีที่ 3 และ 6 ประจำปีการศึกษา 2566 (ภาพโดย ___bbbeee)",
-      link: "https://www.instagram.com/p/C3UmScKv5J7/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+      alt: "วันตรุษจีน 2567 โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      link: "#",
     },
   ];
 
