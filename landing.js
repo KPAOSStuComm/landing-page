@@ -8,24 +8,19 @@ window.onload = function () {
 
   let images = [
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/Sirindhorn-2024.jpg",
-      alt: "เรารักกรมสมเด็จพระเทพฯ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
-      link: "https://kpaos-shorturl.netlify.app/r/0wUirfI0",
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/songkran-2024.jpg",
+      alt: "สุขสันต์วันสงกรานต์ ร่วมสืบสานประเพณีไทย 13-15 เมษายน 2567",
+      link: "https://w.wiki/9hTq",
     },
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/valentine-day-2024.jpg",
-      alt: "วันวาเลนไทน์ 2567 โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
-      link: "#",
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/bd-Sirindhorn-2024.jpg",
+      alt: "2 เมษายน วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+      link: "https://w.wiki/9hV8",
     },
     {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/farewell-kpaos-2024.png",
-      alt: "กิจกรรมอำลาพี่-น้อง KPAOS ชั้นมัธยมศึกษาปีที่ 3 และ 6 ประจำปีการศึกษา 2566 (ภาพโดย ___bbbeee)",
-      link: "https://kpaos-shorturl.netlify.app/r/GXCgL1FE",
-    },
-    {
-      src: "//kpaosstucomm-proj-landing.netlify.app/images/CNY-2024.jpg",
-      alt: "วันตรุษจีน 2567 โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
-      link: "#",
+      src: "//kpaosstucomm-proj-landing.netlify.app/images/honor-kpaos-2024.jpg",
+      alt: "วันเกีรยติยศ ประจำปีการศึกษา 2566 วันที่ 31 มีนาคม 2567 ณ โรงเรียนองค์การบริหารส่วนจังหวัดกระบี่",
+      link: "https://fb.watch/rjqeoj8ae3/",
     },
   ];
 
